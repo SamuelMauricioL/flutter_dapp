@@ -8,12 +8,15 @@ environment:
 
 dependencies:
   bloc: ^8.0.2
+  equatable: ^2.0.3
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
+  profile:
+    path: packages/profile
 
 dev_dependencies:
   bloc_test: ^9.0.2
