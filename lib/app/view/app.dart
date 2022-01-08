@@ -5,9 +5,9 @@
 // license that can be found in the LICENSE file or at
 // https://opensource.org/licenses/MIT.
 
-import 'package:dapp/counter/counter.dart';
+// import 'package:dapp/counter/counter.dart';
 import 'package:dapp/l10n/l10n.dart';
-import 'package:dapp/signin/view/signin_page.dart';
+import 'package:dapp/signin/signin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
