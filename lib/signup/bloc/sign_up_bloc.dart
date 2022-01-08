@@ -10,9 +10,8 @@ class SignUpBloc extends Bloc<SignUpEvent, SignUpState> {
   SignUpBloc() : super(SignUpInitial());
 
   @override
+  // ignore: override_on_non_overriding_member
   Stream<SignUpState> mapEventToState(
     SignUpEvent event,
-  ) async* {
-    // TODO: implement mapEventToState
-  }
+  ) async* {}
 }
