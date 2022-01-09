@@ -6,14 +6,15 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:dapp/app/app.dart';
-import 'package:dapp/counter/counter.dart';
+// import 'package:dapp/counter/counter.dart';
+import 'package:dapp/signin/view/view.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('App', () {
-    testWidgets('renders CounterPage', (tester) async {
+    testWidgets(' renders CounterPage', (tester) async {
       await tester.pumpWidget(const App());
-      expect(find.byType(CounterPage), findsOneWidget);
+      expect(find.byType(SignInPage), findsOneWidget);
     });
   });
 }

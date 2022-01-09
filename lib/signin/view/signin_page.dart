@@ -26,7 +26,7 @@ class SignInView extends StatelessWidget {
       body: Center(
         child: SizedBox(
           width: 320,
-          height: 500,
+          height: 510,
           child: Card(
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),

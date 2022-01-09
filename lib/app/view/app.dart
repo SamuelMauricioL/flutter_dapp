@@ -7,7 +7,7 @@
 
 // import 'package:dapp/counter/counter.dart';
 import 'package:dapp/l10n/l10n.dart';
-import 'package:dapp/signin/signin.dart';
+import 'package:dapp/signin/view/view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 

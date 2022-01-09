@@ -6,9 +6,7 @@ part 'sign_in_state.dart';
 
 class SignInBloc extends Bloc<SignInEvent, SignInState> {
   SignInBloc() : super(const SignInState()) {
-    on<SignInEvent>((event, emit) {
-      on<SignInSubmitted>(_onSubmitted);
-    });
+    on<SignInSubmitted>(_onSubmitted);
   }
 
   void _onSubmitted(SignInSubmitted event, Emitter emit) {
@@ -16,6 +14,7 @@ class SignInBloc extends Bloc<SignInEvent, SignInState> {
       state.copyWith(
         email: event.email,
         password: event.password,
+        complete: true,
       ),
     );
   }
