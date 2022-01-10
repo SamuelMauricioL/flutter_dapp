@@ -11,6 +11,7 @@ class User extends Equatable {
     required this.name,
     required this.dni,
     required this.number,
+    required this.address,
   });
 
   // ignore: lines_longer_than_80_chars
@@ -22,6 +23,7 @@ class User extends Equatable {
           name: '',
           dni: '',
           number: '',
+          address: '',
         );
 
   /// The user's email address.
@@ -39,6 +41,9 @@ class User extends Equatable {
   /// The user's number.
   final String number;
 
+  /// The user's number.
+  final String address;
+
   @override
-  List<Object> get props => [email, password, name, dni, number];
+  List<Object> get props => [email, password, name, dni, number, address];
 }

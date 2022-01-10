@@ -7,7 +7,14 @@ void main() {
   group('Profile', () {
     test('can be instantiated', () {
       expect(
-        User(email: '', password: '', name: '', dni: '', number: ''),
+        User(
+          email: '',
+          password: '',
+          name: '',
+          dni: '',
+          number: '',
+          address: '',
+        ),
         isNotNull,
       );
     });
